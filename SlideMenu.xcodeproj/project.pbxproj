@@ -326,6 +326,11 @@
 				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Aryan Ghassemi";
+				TargetAttributes = {
+					15371EDD1728E3B400A508F4 = {
+						DevelopmentTeam = WWTMJUGA3X;
+					};
+				};
 			};
 			buildConfigurationList = 15371ED81728E3B400A508F4 /* Build configuration list for PBXProject "SlideMenu" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -522,10 +527,12 @@
 		15371F1B1728E3B400A508F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WWTMJUGA3X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideMenu/SlideMenu-Prefix.pch";
 				INFOPLIST_FILE = "SlideMenu/SlideMenu-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cslo.Lottery-Trade-3-3-157";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -534,10 +541,12 @@
 		15371F1C1728E3B400A508F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WWTMJUGA3X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideMenu/SlideMenu-Prefix.pch";
 				INFOPLIST_FILE = "SlideMenu/SlideMenu-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cslo.Lottery-Trade-3-3-157";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
